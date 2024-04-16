@@ -1,0 +1,728 @@
+.best-sellers {
+  position: relative;
+  font-weight: 600;
+}
+.stand-up-pouch-bag-mockup-2 {
+  position: absolute;
+  top: calc(50% - 116px);
+  left: calc(50% - 50.5px);
+  width: 101.4px;
+  height: 175px;
+  object-fit: cover;
+}
+.ready-to-mix {
+  position: absolute;
+  top: 212px;
+  left: calc(50% - 114.5px);
+  font-weight: 600;
+  display: inline-block;
+  width: 221px;
+}
+.stand-up-pouch-bag-mockup-2-parent {
+  width: 273px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background: linear-gradient(180deg, #fff, #e2eeff 78.01%);
+  border: 1px solid var(--color-royalblue-200);
+  box-sizing: border-box;
+  height: 272px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.stand-up-pouch-bag-mockup-1,
+.stand-up-pouch-bag-mockup-3,
+.stand-up-pouch-bag-mockup-4 {
+  position: absolute;
+  top: calc(50% - 116px);
+  left: calc(50% - 51.5px);
+  width: 102.4px;
+  height: 175px;
+  object-fit: cover;
+}
+.stand-up-pouch-bag-mockup-3,
+.stand-up-pouch-bag-mockup-4 {
+  left: calc(50% - 52.5px);
+  width: 105.6px;
+}
+.stand-up-pouch-bag-mockup-4 {
+  left: calc(50% - 51.5px);
+  width: 103.3px;
+}
+.best-sellers-parent,
+.frame-parent {
+  display: flex;
+  justify-content: flex-start;
+
+}
+.best-sellers a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.frame-parent {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+  text-align: center;
+  color: var(--color-gray-100);
+}
+.best-sellers-parent {
+  position: absolute;
+  top: 2537px;
+  left: calc(50% - 576px);
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-5xl);
+}
+.image-71-icon,
+.image-72-icon,
+.image-73-icon,
+.image-74-icon,
+.image-80-icon,
+.image-81-icon,
+.image-82-icon {
+  position: absolute;
+  top: 0;
+  left: 1334px;
+  border-radius: var(--br-mini);
+  width: 117.3px;
+  height: 80px;
+  object-fit: cover;
+}
+.image-72-icon,
+.image-73-icon,
+.image-74-icon,
+.image-80-icon,
+.image-81-icon,
+.image-82-icon {
+  left: 0;
+}
+.image-72-icon,
+.image-73-icon,
+.image-74-icon,
+.image-81-icon,
+.image-82-icon {
+  left: 1491px;
+  width: 106.6px;
+}
+.image-73-icon,
+.image-74-icon,
+.image-81-icon,
+.image-82-icon {
+  left: 157px;
+}
+.image-73-icon,
+.image-74-icon,
+.image-82-icon {
+  left: 1638px;
+  width: 144px;
+}
+.image-74-icon,
+.image-82-icon {
+  left: 304px;
+}
+.image-74-icon {
+  left: 1822px;
+  width: 80px;
+}
+.image-75-icon,
+.image-76-icon,
+.image-77-icon,
+.image-83-icon,
+.image-84-icon,
+.image-85-icon,
+.image-86-icon {
+  position: absolute;
+  top: 0;
+  left: 488px;
+  border-radius: var(--br-mini);
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+.image-75-icon,
+.image-76-icon,
+.image-77-icon,
+.image-84-icon,
+.image-85-icon,
+.image-86-icon {
+  left: 1942px;
+}
+.image-76-icon,
+.image-77-icon,
+.image-84-icon,
+.image-85-icon,
+.image-86-icon {
+  left: 608px;
+}
+.image-76-icon,
+.image-77-icon,
+.image-85-icon,
+.image-86-icon {
+  left: 2062px;
+  width: 106.7px;
+}
+.image-77-icon,
+.image-85-icon,
+.image-86-icon {
+  left: 728px;
+}
+.image-77-icon,
+.image-86-icon {
+  left: 2209px;
+  width: 80px;
+}
+.image-86-icon {
+  left: 875px;
+}
+.image-78-icon {
+  left: 2329px;
+  border-radius: var(--br-mini);
+  width: 160px;
+}
+.image-78-icon,
+.image-79-icon,
+.image-87-icon,
+.image-88-icon {
+  position: absolute;
+  top: 0;
+  height: 80px;
+  object-fit: cover;
+}
+.image-87-icon {
+  left: 995px;
+  border-radius: var(--br-mini);
+  width: 160px;
+}
+.image-79-icon,
+.image-88-icon {
+  left: 2529px;
+  width: 99.4px;
+}
+.image-88-icon {
+  left: 1195px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--color-royalblue-100);
+}
+.component-45 {
+  /* width: 194px;
+  position: relative;
+  height: 80px;
+  /* overflow: hidden; */
+  /* flex-shrink: 0; */
+}
+.certifications-parent {
+  position: absolute;
+  bottom: 349px;
+  left: calc(50% - 646px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.frame-child {
+  width: 392px;
+  position: relative;
+  border-radius: var(--br-mini);
+  height: 288px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.welcome-to-nutryfood {
+  margin: 0;
+}
+.welcome-to-nutryfood-container {
+  width: 745px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frame-group,
+.who-we-are-parent {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frame-group {
+  flex-direction: row;
+  align-items: flex-start;
+  color: var(--color-gray-200);
+  font-family: var(--font-lato);
+}
+.who-we-are-parent {
+  position: absolute;
+  top: 2121px;
+  left: calc(50% - 580px);
+  flex-direction: column;
+  align-items: center;
+}
+.crowned-with-innovations {
+  position: relative;
+}
+.elevating-culinary-excellence {
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: rgba(0, 0, 0, 0.74);
+}
+.crowned-with-innovations-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.welcome-to-nutryfood-container1 {
+  width: 636px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frame-div,
+.welcome-to-nutryfood-we-belie-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.welcome-to-nutryfood-we-belie-wrapper {
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-lato);
+}
+.frame-div {
+  width: 1187px;
+  gap: var(--gap-5xl);
+}
+.frame-item {
+  width: 100px;
+  position: relative;
+  height: 100px;
+}
+.group-parent {
+  position: absolute;
+  top: calc(50% - 83.5px);
+  left: calc(50% - 542px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 140px;
+}
+.ancient-time-honored-methods,
+.no-preservatives-pure,
+.nutritionally-superior-option {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  display: inline-block;
+  width: 188px;
+}
+.ancient-time-honored-methods,
+.no-preservatives-pure {
+  left: 239px;
+}
+.no-preservatives-pure {
+  left: 478px;
+}
+.accessible-worldwide-everywhe,
+.affordable-without-sacrificing {
+  position: absolute;
+  top: 0;
+  left: 696px;
+  font-weight: 600;
+  display: inline-block;
+  width: 234px;
+}
+.affordable-without-sacrificing {
+  left: 937px;
+}
+.nutritionally-superior-option-parent {
+  position: absolute;
+  top: 119px;
+  left: 0;
+  width: 1171px;
+  height: 48px;
+}
+.group-div {
+  width: 1171px;
+  position: relative;
+  height: 167px;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.frame-container {
+  width: 100vw;
+  position: absolute;
+  top: 638px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 61px;
+  text-align: center;
+  font-size: 36px;
+  color: var(--color-royalblue-100);
+}
+.c7fd2a6-c64d-4133-ba8f-cd85163-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1280px;
+  height: 500px;
+  object-fit: cover;
+}
+.just-mix-and,
+.no-compromise-only,
+.uniting-global-flavors {
+  position: absolute;
+  font-weight: 800;
+  display: inline-block;
+  width: 938px;
+}
+.just-mix-and {
+  top: calc(50% - 29px);
+  left: calc(50% - 469px);
+}
+.no-compromise-only,
+.uniting-global-flavors {
+  top: 218px;
+  left: 0;
+  opacity: 0;
+}
+.uniting-global-flavors {
+  top: 377px;
+}
+.just-mix-and-cook-parent {
+  position: absolute;
+  top: calc(50% - 60px);
+  left: calc(50% - 469px);
+  width: 938px;
+  height: 120px;
+  overflow: hidden;
+}
+.component-44 {
+  position: absolute;
+  top: 160px;
+  left: calc(50% - 640px);
+  width: 1280px;
+  height: 450px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+}
+.nutryfood {
+  position: relative;
+  letter-spacing: 0.3em;
+  font-weight: 600;
+}
+.crowned-with-innovations1 {
+  position: relative;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: var(--font-lato);
+}
+.home-parent,
+.nutryfood-parent {
+  position: absolute;
+  left: 64px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nutryfood-parent {
+  top: 40px;
+  flex-direction: column;
+  font-size: var(--font-size-xl);
+}
+.home-parent {
+  top: 118px;
+  flex-direction: row;
+  gap: var(--gap-5xl);
+}
+.component-38-icon {
+  width: 48px;
+  position: relative;
+  height: 48px;
+}
+.component-38-parent {
+  position: absolute;
+  top: 166px;
+  left: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+}
+.nutryfood-all-rights {
+  position: absolute;
+  top: 198px;
+  left: 899px;
+  font-weight: 600;
+}
+.macbook-air-5 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 640px);
+  background-color: var(--color-royalblue-100);
+  width: 1280px;
+  height: 258px;
+  overflow: hidden;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.cream-playful-why-i-love-choco {
+  position: absolute;
+  top: 1258px;
+  left: calc(50% - 540px);
+  width: 1080px;
+  height: 759px;
+  object-fit: cover;
+}
+.group-child,
+.image-89-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+}
+.image-89-icon {
+  top: 22px;
+  left: 22px;
+  width: 56px;
+  height: 56.7px;
+  object-fit: cover;
+}
+.group-container {
+  position: absolute;
+  top: 684px;
+  left: 1116px;
+  width: 100px;
+  height: 100px;
+  display: none;
+}
+.macbook-air-7-child {
+  position: absolute;
+  bottom: 20px;
+  left: calc(50% - 226px);
+  border-radius: var(--br-xl);
+  width: 522px;
+  height: 40px;
+  overflow: hidden;
+}
+.access-context-manager-svgrepo-icon,
+.vector-icon {
+  position: absolute;
+  height: 100%;
+  width: 23.6%;
+  top: 0;
+  right: 68.94%;
+  bottom: 0;
+  left: 7.45%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon {
+  height: 84.17%;
+  width: 14.59%;
+  top: 7.89%;
+  right: 85.41%;
+  bottom: 7.94%;
+}
+.nutryfood1 {
+  position: absolute;
+  height: 42.17%;
+  width: 69.87%;
+  top: -4.16%;
+  left: 30.13%;
+  display: inline-block;
+}
+.crowned-with-innovations2 {
+  position: absolute;
+  top: 68.26%;
+  left: 38.82%;
+  font-size: 7.89px;
+  font-family: var(--font-kadwa);
+}
+.access-context-manager-svgrepo-parent {
+  position: absolute;
+  height: 60%;
+  width: 19.86%;
+  top: 20%;
+  right: 75.15%;
+  bottom: 20%;
+  left: 4.99%;
+}
+.domestic-international {
+  width: 200px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  height: 23px;
+  flex-shrink: 0;
+}
+.component-58-parent {
+  position: absolute;
+  top: 32px;
+  left: 960px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-3xs);
+  color: rgba(0, 0, 0, 0.8);
+  font-family: var(--font-montserrat);
+}
+.macbook-air-7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1280px;
+  height: 100px;
+  overflow: hidden;
+  font-size: 43.42px;
+  color: var(--color-royalblue-100);
+  font-family: var(--font-katibeh);
+}
+.frame-child3 {
+  width: 63px;
+  position: relative;
+  max-height: 100%;
+}
+.home-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.frame-child4 {
+  width: 6px;
+  position: relative;
+  height: 0;
+  opacity: 0;
+}
+.frame-parent1 {
+  position: absolute;
+  top: calc(50% - 14px);
+  left: calc(50% - 219px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.mdiwhatsapp-icon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.phone-2-1-parent {
+  position: absolute;
+  top: calc(50% - 12px);
+  right: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.macbook-air-6 {
+  position: absolute;
+  top: 6.25rem;
+  left: 0;
+  background-color: var(--color-royalblue-100);
+  width: 100%;
+  height: 3.75rem;
+  overflow: hidden;
+  color: var(--color-white);
+}
+.home {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  /* height: 2034px; */
+  height: 3434px;
+  /* min-height:100vh; */
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+
+
+/* -------------------------------------------------- */
+
+/* .component-45 {
+  overflow: hidden;
+} */
+
+.image-slider {
+  display: flex;
+  animation: slideRight 20s linear infinite;
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.image-slider img {
+  width: 100px; /* Adjust as needed */
+  height: auto; /* Adjust as needed */
+  margin-right: 10px; /* Adjust spacing between images */
+}
+
+
+/* tooltip */
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

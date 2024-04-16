@@ -1,0 +1,427 @@
+.macbook-air-7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    font-size: 43.42px;
+    color: var(--color-royalblue-100);
+    font-family: var(--font-katibeh);
+  }
+  .frame-child3 {
+    width: 63px;
+    position: relative;
+    max-height: 100%;
+  }
+  .home-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+  }
+  .frame-child4 {
+    width: 6px;
+    position: relative;
+    height: 0;
+    opacity: 0;
+  }
+  .frame-parent1 {
+    position: absolute;
+    top: calc(50% - 14px);
+    left: calc(50% - 219px);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+  }
+  .mdiwhatsapp-icon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .phone-2-1-parent {
+    position: absolute;
+    top: calc(50% - 12px);
+    right: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+  }
+  .macbook-air-6 {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background-color: var(--color-royalblue-100);
+    width: 100%;
+    height: 3.75rem;
+    overflow: hidden;
+    color: var(--color-white);
+  }
+.about-us{
+color: #000;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 100px;
+margin-bottom: 0px;
+width: 1280px;
+height: 180px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.aboutus-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foundation{
+display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+width: 22%;
+padding: 0 4rem 0 4rem;
+}
+.imagea-1{
+    border-radius: 15px;
+background:lightgray 50% / cover no-repeat;
+}
+.imagea-2{
+    border-radius: 15px;
+background:  lightgray 0px -232.5px / 100% 237.818% no-repeat;
+}
+.foundation-1{
+display: flex;
+padding-bottom: 14px;
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
+justify-content:space-around;
+}
+.foundation-title{
+    color: #000;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.foundation-des{
+color: rgba(0, 0, 0, 0.70);
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.aboutus-des{
+  display: flex;
+  margin-bottom: 40px;
+}
+.imagea-3{
+    border-radius: 15px;
+background:  lightgray 50% / cover no-repeat;
+}
+.mission-vision{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin-top: 50px;
+}
+.vision{
+    display: flex;
+    margin-right: 64px;
+    width: 50%;
+padding: 24px 52px 48px 52px;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+border-radius: 15px;
+border: 2px solid rgba(0, 74, 173, 0.40);
+background: #004AAD;  
+}
+.mission{
+    display: flex;
+    margin-left: 64px;
+    width: 50%;
+padding: 24px 52px 48px 52px;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+border-radius: 15px;
+border: 2px solid rgba(0, 74, 173, 0.40);
+background: #004AAD;
+}
+.mission-title{
+    display: flex;
+align-items: center;
+gap: 12px;
+margin-bottom: 0;
+}
+.mission-header{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.mission-des{
+color:rgba(255, 255, 255, 0.90); 
+text-align: center;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.core-title{
+    color: #000;
+font-family: Montserrat;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 2.5rem;
+}
+.core-1{
+display: inline-flex;
+align-items:flex-start;
+gap: 2.5rem;
+margin-left: 20vw;
+margin-top: 2.5rem;
+width: 60vw;
+}
+.core-1-a{
+border-radius: 0.75rem;
+border: 1px solid rgba(0, 74, 173, 0.40);
+background: #FFF;
+width: 30vw;
+height: 12.5rem;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.core-1-title{
+color: rgba(0, 0, 0, 0.85);
+font-family: Montserrat;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.image-1-a{
+flex-shrink: 0;
+fill: #004AAD;
+}
+.core-2{
+display: inline-flex;
+align-items: flex-start;
+gap: 2.5rem;
+margin-top: 2.5rem;
+margin-left: 28vw;
+}
+.core-2-a{
+    border-radius: 0.75rem;
+border: 1px solid rgba(0, 74, 173, 0.40);
+background: #FFF;
+width: 20vw;
+height: 12.5rem;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.founders-section{
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    }
+    .heading{
+        color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    justify-content: center;
+    }
+    .founder-1{
+    display: flex;
+    padding: 20px 40px 20px 24px;
+    /* flex-direction: column;
+    align-items: flex-start; */
+    gap: 10px;
+    border-radius: 15px;
+    background: rgba(226, 238, 255, 0.54);
+    }
+    .founder-1-des{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        width: 52%;
+    }
+    .founder-1-title{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    }
+    .founder-1-name{
+        color: #000;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+    .founder-1-role{
+        color: #004AAD;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .founder-1-about{
+        color: rgba(0, 0, 0, 0.70);
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    .image-1-founder{
+    border-radius: 15px;
+    background: lightgray 2.911px -103.79px / 100% 214.857% no-repeat;
+    /* width: 564px;
+    height: 363px; */
+    overflow-y: hidden;
+    }
+    .team-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .team-title{
+        color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 1.8rem;
+    }
+    .team-frame{
+        margin-top: 3rem;
+        display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+    margin-bottom: 13rem;
+    }
+    .team-frame-1{
+        display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 2.5rem;
+    }
+    .team-frame-1-a{
+        width: 25%;
+    }
+    .imaget-1{
+        display: flex;
+         align-items: center;
+         justify-content: center;
+    }
+    .des{
+        display: flex;
+        flex-direction: column;
+    height: 88px;
+    padding: 0px 2.5rem 0px 2.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 0.8rem;
+    border: 1px solid rgba(0, 74, 173, 0.40);
+    background: #CBE1FF;
+    }
+    .des-des{
+        color: rgba(0, 0, 0, 0.85);
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    }
+    .nutryfood {
+        position: relative;
+        letter-spacing: 0.3em;
+        font-weight: 600;
+      }
+      .crowned-with-innovations1 {
+        position: relative;
+        font-size: 12px;
+        font-weight: 600;
+        font-family: var(--font-lato);
+      }
+      .home-parent,
+      .nutryfood-parent {
+        position: absolute;
+        left: 64px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+      }
+      .nutryfood-parent {
+        top: 40px;
+        flex-direction: column;
+        font-size: var(--font-size-xl);
+      }
+      .home-parent {
+        top: 118px;
+        flex-direction: row;
+        gap: var(--gap-5xl);
+      }
+      .component-38-icon {
+        width: 48px;
+        position: relative;
+        height: 48px;
+      }
+      .component-38-parent {
+        position: absolute;
+        top: 166px;
+        left: 64px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 40px;
+      }
+      .nutryfood-all-rights {
+        position: absolute;
+        top: 198px;
+        left: 899px;
+        font-weight: 600;
+      }
+    
