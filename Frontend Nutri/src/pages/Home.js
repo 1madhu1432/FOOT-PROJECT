@@ -1,8 +1,20 @@
 import { Link } from "react-router-dom";
 import { ExternalLink } from 'react-external-link';
+import Slider from 'react-slick';
+
 import "./Home.css";
 
 const Home = () => {
+  const sliderSettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  };
+
   return (
     <div className="home">
       <div className="best-sellers-parent">
@@ -73,6 +85,10 @@ const Home = () => {
         <div className="frame-group">
           <img className="frame-child" alt="" src="/frame-273@2x.png" />
           <div className="welcome-to-nutryfood-container">
+          <p className="welcome-to-nutryfood">
+              <b>Why NutryFood</b>
+            </p>
+            <p className="welcome-to-nutryfood">&nbsp;</p>
             <p className="welcome-to-nutryfood">
               Welcome to Nutryfood, where culinary innovation meets tradition.
               With our supreme Research and Development, we've revolutionized
@@ -108,10 +124,11 @@ const Home = () => {
           <div className="welcome-to-nutryfood-we-belie-wrapper">
             <div className="welcome-to-nutryfood-container1">
               <p className="welcome-to-nutryfood">
-                Welcome to Nutryfood! We believe in blending tradition with
-                innovation to make cooking easier and faster. Our smart research
-                makes cooking simple and delicious. We want everyone to enjoy
-                good food without the hassle.
+              At “Nutryfood”, our success revolves around supreme Research and Development,
+               which helps us turn a long, tiring one-day process into a quick one-minute task,
+                making kitchen work much easier. Effortless Cooking starts with us, where convenience
+                 and high quality come together in every dish we prepare. We take pride in Redefining
+                  Taste Through Research Excellence, ensuring that every bite reflects our dedication to perfection.
               </p>
               <p className="welcome-to-nutryfood">&nbsp;</p>
               <p className="welcome-to-nutryfood">

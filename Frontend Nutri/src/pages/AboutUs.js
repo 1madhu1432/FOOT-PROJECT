@@ -2,6 +2,14 @@ import React from 'react'
 import './aboutus_styles.css';
 import { Link } from "react-router-dom"
 import { ExternalLink } from 'react-external-link';
+import Vector1 from "../assets/Vector1.png"
+import Vector2 from "../assets/Vector2.png"
+import Vector3 from "../assets/Vector3.png"
+import Vector4 from "../assets/Vector4.png"
+import Vector5 from "../assets/Vector5.png"
+import Vector6 from "../assets/Vector6.png"
+import Vector7 from "../assets/Vector7.png"
+import Vector8 from "../assets/Vector8.png"
 
 function Aboutus() {
   return (
@@ -61,8 +69,7 @@ function Aboutus() {
               <div className='foundation-1'>
                 <div className='foundation-title'>Standing Foundation</div>
                 <div className='foundation-des' >
-                  Our goal is global expansion, ensuring all Indians worldwide enjoy the taste and health benefits of Indian cuisine. We achieve this through partnerships with Indian restaurants worldwide, maximizing NutryFood Industries' reach.
-                </div>
+                At the heart of Nutryfood's success lies our unwavering commitment to supreme Research and Development. Through tireless innovation, we've transformed what was once a laborious one-day process into a swift one-minute task, revolutionising kitchen efficiency and making cooking a breeze. Effortless Cooking truly begins with Nutryfood, where the perfect blend of convenience and high quality ensures that every dish we prepare is a culinary masterpiece.                </div>
               </div>
             </div>
             <div className='foundation'>
@@ -72,8 +79,8 @@ function Aboutus() {
               <div className='foundation-1'>
                 <div className='foundation-title'>Branching Principles</div>
                 <div className='foundation-des'>
-                  We uphold unwavering commitment to quality, standards, traditional cooking methods, preserving nutrients, health benefits, and the personal touch that our customers cherish.
-                </div>
+                We take immense pride in our mission of Redefining Taste Through Research Excellence. With each bite, you'll experience the culmination of our dedication to perfection, as we continuously strive to elevate the culinary landscape. Nutryfood serves as the intersection Where Research Meets Nourishment, harmonizing cutting-edge innovation with the rich tapestry of traditional Indian flavors.
+Our vision extends far beyond borders, as we aim to bring the authentic taste of Indian cuisine to tables worth                </div>
               </div>
 
             </div>
@@ -84,7 +91,9 @@ function Aboutus() {
               <div className='foundation-1'>
                 <div className='foundation-title'>Fruitful Results</div>
                 <div className='foundation-des' >
-                  We continue our mothers' legacy by offering NutryFood to present and future generations, ensuring the tradition lives on.
+                Taste with Nutryfood. Our solutions are meticulously crafted to uphold the highest standards, ensuring that every dining experience is nothing short of exceptional.
+
+Moreover, our commitment to excellence doesn't come with a hefty price tag. Nutryfood is proud to offer Cost-Effective solutions, making culinary greatness accessible to all. Join us on a journey where culinary creativity meets innovation, promising an unparalleled dining experience that celebrates the artistry of food and the dedicated
                 </div>
               </div>
             </div>
@@ -133,7 +142,7 @@ function Aboutus() {
               </div>
               <div className='mission-header'>MISSION</div>
             </div>
-            <div className='mission-des'>“To help people live healthier lives and make the world a better place with new ideas”
+            <div className='mission-des'>“Empowering individuals worldwide to embrace convenience without compromising quality, fostering a culture of excellence and accessibility”
             </div>
           </div>
           <div className='vision'>
@@ -143,7 +152,7 @@ function Aboutus() {
               </div>
               <div className='mission-header'>VISION</div>
             </div>
-            <div className='mission-des'>“To help people live healthier lives and make the world a better place with new ideas”
+            <div className='mission-des'>“To inspire healthier lifestyles and enhance global well-being through innovative solutions”
             </div>
           </div>
         </div>
@@ -221,7 +230,7 @@ function Aboutus() {
           <div className='team-frame-1'>
             <div className='team-frame-1-a'>
               <div className='imaget-1'>
-                <img src='./Component 64.png'></img>
+                <img src={Vector1} style={{width:"100px",height:"100px"}}></img>
               </div>
               <div className='des'>
                 <div className='des-des'>Business development</div>
@@ -229,60 +238,60 @@ function Aboutus() {
             </div>
             <div className='team-frame-1-a'>
               <div className='imaget-1'>
-                <img src='./Component 64.png'></img>
+                <img src={Vector2} style={{width:"100px",height:"100px"}}></img>
               </div>
               <div className='des'>
-                <div className='des-des'>Business development</div>
+                <div className='des-des'>R & D</div>
               </div>
             </div>
             <div className='team-frame-1-a'>
               <div className='imaget-1'>
-                <img src='./Component 64.png'></img>
+                <img src={Vector3} style={{width:"100px",height:"100px"}}></img>
               </div>
               <div className='des'>
-                <div className='des-des'>Business development</div>
+                <div className='des-des'>Inhouse product evaluation team</div>
               </div>
             </div>
             <div className='team-frame-1-a'>
               <div className='imaget-1'>
-                <img src='./Component 64.png'></img>
+                <img src={Vector4} style={{width:"100px",height:"100px"}}></img>
               </div>
               <div className='des'>
-                <div className='des-des'>Business development</div>
+                <div className='des-des'>QC & QA</div>
               </div>
             </div>
           </div>
           <div className='team-frame-1'>
             <div className='team-frame-1-a'>
               <div className='imaget-1'>
-                <img src='./Component 64.png'></img>
+                <img src={Vector5} style={{width:"100px",height:"100px"}}></img>
               </div>
               <div className='des'>
-                <div className='des-des'>Business development</div>
+                <div className='des-des'>Manufacturing</div>
               </div>
             </div>
             <div className='team-frame-1-a'>
               <div className='imaget-1'>
-                <img src='./Component 64.png'></img>
+                <img src={Vector6} style={{width:"100px",height:"100px"}}></img>
               </div>
               <div className='des'>
-                <div className='des-des'>Business development</div>
+                <div className='des-des'>Marketing</div>
               </div>
             </div>
             <div className='team-frame-1-a'>
               <div className='imaget-1'>
-                <img src='./Component 64.png'></img>
+                <img src={Vector7} style={{width:"100px",height:"100px"}}></img>
               </div>
               <div className='des'>
-                <div className='des-des'>Business development</div>
+                <div className='des-des'>Exports</div>
               </div>
             </div>
             <div className='team-frame-1-a'>
               <div className='imaget-1'>
-                <img src='./Component 64.png'></img>
+                <img src={Vector8} style={{width:"100px",height:"100px"}}></img>
               </div>
               <div className='des'>
-                <div className='des-des'>Business development</div>
+                <div className='des-des'>Creative Media</div>
               </div>
             </div>
           </div>
